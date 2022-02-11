@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+.logo{
+    margin-left: 24px;
+    padding-top: 16px;
+}
+.nav-ht{
+    height: 64px;
+}
+.nav-bar{
+    padding-top: 16px;
+    font-size: 24px;
+    height: 64px;
+    justify-content: center;
+    display: flex;
+    margin-right:16px ;
+}
+.colmar{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    height: 64px;
+    margin-left: -60px;
+}
+#gray{
+    color:gray;
+    margin-top: 16px;
+    font-size: 32px;
+}
+#navbarNav{
+    justify-items: left;
+}
+.banner-main{
+    background-color:#B8B8B8;
+    display: flex;
+}
+.banner{
+    margin-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+.word-banner{
+    padding-top: 100px;
+    padding-bottom:50px ;
+}
+button{
+    text-align: center;
+}
+.part-two{
+    display: flex;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+.be-it{
+    display: flex;
+    margin-top: 32px;
+}
+@media screen and (max-width: 800px) {
+    .container{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+.start{
+background-color:#C8C8C8 ;
+display: flex;
+padding-top: 32px;
+padding-bottom: 32px;
+padding-left: 72px;
+padding-right: 72px;
+}
+.container thesis{
+    display: flex;
+    padding-top: 64px;
+}
+.h-thesis{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}

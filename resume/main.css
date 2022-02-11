@@ -1,0 +1,13 @@
+body{
+    font-family: 'Abel', sans-serif;
+}
+.opaul-avatar{
+    width: 100px;
+    height: 100px;
+}
+.img-fluid{
+    height: 300px;
+}
+li{
+    text-align: left;
+}
