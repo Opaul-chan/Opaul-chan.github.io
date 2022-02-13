@@ -1,121 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css ref-->
     <link rel="stylesheet" href="./main.css">
+    <!--css font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!--css bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLMARACADEMY</title>
 </head>
 <body>
-    <nav>
-    <div class="container nav-ht">
-        <div class="row">
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-2">
-                            <img class="logo" src="./ic-logo.svg" alt="logo">
-                        </div>
-                        <div class="col-10 colmar">
-                            <strong>COLMAR</strong></span><span id="gray">ACADEMY</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-3 nav-bar">On campus</div>
-                        <div class="col-5 nav-bar">Online or companies</div>
-                        <div class="col-3 nav-bar">Sign in</div>
-                    </div>
-                </div>
-        </div>
+    <!--part nav text-->
+    <div class="nav-text">
+        <a href="#home" style="flex-grow: 9;":><img class="logo" src="./ic-logo.svg">
+            <span class="colmar"><strong>COLMAR</strong></span>
+            <span id="aca">ACADEMY</span></a>
+        <a href="#oncampus" style="flex-grow: 1;">On campus</a>
+        <a href="#online" style="flex-grow: 1;">Online or companies</a>
+        <a href="#sign" style="flex-grow: 1;">Sign in</a> 
     </div>
-    </nav>
-      <!--jumbotron part-->
-      <div class="container banner-main">
-          <div class="row">
-             <div class="container">
-                 <div class ="row">
-                    <div class="col-6">
-                        <img class="banner" src="./banner.jpg" alt="" width=100%>
-                    </div>
-                    <div class="col-6 word-banner">
-                        <h1>Learn something <br>new everyday</h1>
-                        <div><h3>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. </h3> 
-                        </div> 
-                        <button type="button" class="btn btn-secondary">Start here</button> 
-                    </div>
-                </div>    
-            </div>
-          </div>
-        </div>
+    <!--part nav icon--> 
+    <div class="nav-icon">
+        <a href="#home"><img src="./ic-logo.svg"></a>
+        <a href="#oncampus"><img src="./ic-on-campus.svg" alt=""></a>
+        <a href="#online"><img src="./ic-online.svg" alt=""></a>
+        <a href="#contact"><img src= "./ic-login.svg"alt=""></a>
+    </div>
+ <!--jumbotron part--> 
+<div class="flex-container">
+        <div class="flex-item-left"><img class="logo"src="./banner.jpg" alt=""></div>
+        <div class="flex-item-right"><h1>Learn something<br>new everyday</h1><h5>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit.</h5> <button type="button" id="start-button">Start here</button></div>
+</div>
        <!--Part2-->
-       <div class="container part-two">
-        <div class ="row">
-            <div class="col-6 ">
-                <div class="row">
-                
-                <div class="col-12 ">
-                    <img src="information-main.jpg" alt="" width=100%>
-                </div>
-                <div class="col-12 be-it"><h2>It doesn't to keep practicing</h2></div>
-                <div class="col-12"><p>"Curabitur vitae libero in ipsum porttitor consequat.Aliquam et commodo lectus,nec consequat neque.Sed non accumsan urna.Phasellus sed consequat ex. Etiam eget magna laoreet,efficitur dolor consequat, tristique ligula."</p></div>
-                <div class="col-12">Emanuel,St Stralegist at Hiring.com</div>
-                </div>
+        <div class="container-part-two">
+            <!--part2-left-->
+            <div class="item-left-part-two">
+                <img src="./information-main.jpg" alt="">
+                <div class="it-does-not"><h3>It doesn't hurt to keep practicing</h3></div>
+                <div class="cura"><p>"Curabitur vitae libero in ipsum porttitor consequat.Aliquam et commodo lectus,nec consequat neque.Sed non accumsan urna.Phasellus sed consequat ex. Etiam eget magna laoreet,efficitur dolor consequat, tristique ligula."</p></div>
+                <div class="ema">Emanuel,St Stralegist at Hiring.com</div>
             </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="./information-orientation-mobile.jpg" alt=""width=100% height=300px>
-                            </div>
-                            <div class="col-6">
-                                <h5>Orientation date</h5>
-                                <h6>Tue 10/11 & Wed 10/12:8am-3pm</h6>
-                                <a href="#"><h6>Read more</h6></a>
-                            </div>
+            <!--part two right-->
+            <div class="item-right-part-two">
+                <!--part orientation-->
+                <div class="item-orientation">
+                <div class="orientation-img">
+                <img src="./information-orientation-mobile.jpg" alt=""></div>
+                <div class="orientation-text">
+                <h3>Orientation date</h3>
+                <h6>Tue 10/11 & Wed 10/12:8am-3pm</h6>
+                <a href="#"><h6>Read more</h6></a>
+                </div></div>
+                <!--part our campus-->
+                <div class="item-our-campus">
+                        <div class="our-campus-img">
+                        <img src="./information-campus-mobile.jpg" alt=""></div>
+                        <div class="our-campus-text">
+                        <h3>Our campus</h3>
+                        <h6>Find which campus is close by you</h6>
+                        <a href="#"><h6>Read more</h6></a>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="./information-campus-mobile.jpg" alt="" width=100% height=300px>
-                            </div>
-                            <div class="col-6">
-                                <h5>Our campus</h5>
-                                <h6>Find which campus is close by you</h6>
-                                <a href="#"><h6>Read more</h6></a>
-                            </div>
+                </div>
+                <!--part our guest-->
+                <div class="item-our-guest">
+                    <div class="our-guest-img">
+                        <img src="./information-guest-lecture-mobile.jpg" alt="" width=300px></div>
+                        <div class="our-guest-text">
+                        <h3>Our guest lecture</h3>
+                        <h6>John a keynote with Oliver Sack about music in medical treatment</h6>
+                        <a href="#"><h6>Read more</h6></a>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="./information-guest-lecture.jpg" alt="" width=100% height=300px>
-                            </div>
-                            <div class="col-6">
-                                <h5>Our guest lecture</h5>
-                                <h6>John a keynote with Oliver Sack about music in medical treatment</h6>
-                                <a href="#"><h6>Read more</h6></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-       </div>
        <!--Start learning-->
        
        <div class="container start">         
            <div class="row start"> 
                <div class="col-12 ban-start"><h2>Start learning</h2></div>
-            <!--start--> 
+            <!--start-->
             <div class="card-group start">
                 <div class="card">
                   <img class="card-img-top" src="./course-software.jpg" alt="computer">
@@ -142,8 +108,7 @@
                   </div>
                 </div>
               </div>
-              <!--end-->
-               <!--start--> 
+               <!--start-->
             <div class="card-group">
                 <div class="card">
                   <img class="card-img-top" src="./course-data.jpg" alt="data">
@@ -170,9 +135,7 @@
                   </div>
                 </div>
               </div>
-              <!--end-->
-           </div>
-       </div>
+             
        <!--part Thesis exhibit-->
 
        <div class="container ">
@@ -182,7 +145,6 @@
                 </div>
             </div>
         </div>
-       
        <div class="container thesis">
             <div class="row">
                 <div class="col-6">
@@ -221,12 +183,14 @@
             </div>
        </div>
        <!--part footer-->
-       <div class="container foo">
+       <footer>
+           <div class="container foo">
            <div class ="row">
                <div class="col-6"> @2013 Colmar Academy All rights reserved</div>
-               <div class="col-3">Terms</div>
-                <div class="col-3">Privacy</div>
+               <div class="col-6">Terms</div>
            </div>
        </div>
+    </footer>
+    
 </body>
 </html>
