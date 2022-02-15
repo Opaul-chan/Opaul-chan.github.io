@@ -1,0 +1,18 @@
+body{
+    background: gray;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .red-head{
+    color: red;
+  }
+  .navbar-brand h1{
+    color: white;
+  }
+  .navbar{
+    background: gray;
+  }
+  img{
+    width:100% ;
+  }
+  

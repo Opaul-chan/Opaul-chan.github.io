@@ -142,6 +142,15 @@ padding-left: 24px;
   height:250px;
   padding-left: 24px;
 }
+/*part start learning*/
+.container-start-learning{
+  display: flex;
+  background-color: #d8d8d8;
+}
+.heading-part{
+  align-items: center;
+  justify-content: center;
+}
   }
 
   /*less than or equal to 950px, then do {…}”*/
