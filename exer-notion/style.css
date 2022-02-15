@@ -1,8 +1,9 @@
 body{
-    background: gray;
+    background: #444444;
     color: white;
     font-family: 'Open Sans', sans-serif;
   }
+  
   .red-head{
     color: red;
   }
@@ -10,9 +11,28 @@ body{
     color: white;
   }
   .navbar{
-    background: gray;
+    background: #444444;
   }
   img{
     width:100% ;
   }
-  
+  .card{
+    background-color: gray;
+    flex-direction: row;
+  }
+  .card-img{
+    width: 30%;
+    height: 30%;
+    padding: 32px;
+  }
+  .card-body{
+    padding: 40px;
+  }
+  h5{
+    color: white;
+    text-decoration: none;
+  }
+  @media (max-width: 950px) {
+    .container-fluid-banner{
+     display: none; }
+  }
