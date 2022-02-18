@@ -16,8 +16,10 @@ function calAge(){
     alert("ยินดีด้วย นายอยู่ในประเทศนี้มา " + age +" ปีแล้ว")
 }
 function loadProfile() {
-    const myName = prompt("Please enter your name");
-    const province = prompt("Please enter your province")
+    let myName = "Opaul"
+    let province = "Korat"
     document.getElementById("my-name-part2").innerHTML = myName;
     document.getElementById("my-province").innerHTML = province;
 }
+/*const myName = prompt("Please enter your name");
+    const province = prompt("Please enter your province")*/
