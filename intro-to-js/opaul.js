@@ -8,3 +8,10 @@ function helloWorld() {
     const h1message =  document.getElementById ("my-name").innerHTML ;
        alert(h1message + ' "วันนี้ไม่มีแรง อนุญาตให้แซงไปก่อน !" ');
     }
+function calAge(){
+    const yearOfBirth = prompt("Please enter your  year of birth");
+    const date = new Date()
+    let year = date.getFullYear()
+    const age = year - yearOfBirth;
+    alert("ยินดีด้วย นายอยู่ในประเทศนี้มา " + age +" ปีแล้ว")
+}
