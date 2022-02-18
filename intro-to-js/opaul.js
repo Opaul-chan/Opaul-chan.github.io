@@ -9,11 +9,14 @@ function helloWorld() {
        alert(h1message + ' "วันนี้ไม่มีแรง อนุญาตให้แซงไปก่อน !" ');
     }
 function calAge(){
-    const yearOfBirth = prompt("Please enter your  year of birth");
+    const yearOfBirth = prompt("Please enter your  year of birth in A.D.");
     const date = new Date()
     let year = date.getFullYear()
     const age = year - yearOfBirth;
     alert("ยินดีด้วย นายอยู่ในประเทศนี้มา " + age +" ปีแล้ว")
+    /*if(age < 0){
+        alert("Year of birth in A.D. only!!!")
+    }else{alert("ยินดีด้วย นายอยู่ในประเทศนี้มา " + age +" ปีแล้ว")}*/
 }
 function loadProfile() {
     let myName = "Opaul"
