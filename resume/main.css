@@ -1,13 +1,64 @@
-body{
-    font-family: 'Abel', sans-serif;
+.navbar {
+  background-color: #87cefa;
 }
-.opaul-avatar{
-    width: 100px;
-    height: 100px;
+body {
+  font-family: "Abel", sans-serif;
+  background-color: black;
 }
-.img-fluid{
-    height: 300px;
+h1 {
+  color: #87cefa;
 }
-li{
-    text-align: left;
+h2 {
+  color: #87cefa;
+  text-align: left;
+}
+h3 {
+  color: white;
+  font-size: 50px;
+}
+.heading-section {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.job-position {
+  color: white;
+  font-size: 40px;
+}
+h4 {
+  color: white;
+}
+.line {
+  border-top: 5px solid #87cefa;
+}
+.rounded-end {
+  padding: 50px;
+}
+.container {
+  margin-top: 100px;
+}
+.personal-statement {
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+.profile-bg {
+  background-color: black;
+}
+/* .profile-img {
+  height: 100%;
+  width: ;
+} */
+.container-center {
+  margin: 50px;
+}
+.education-img {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+.education-bg {
+  background-color: black;
+  color: white;
+  border: 5px dotted #87cefa;
+  max-width: 100%;
 }
