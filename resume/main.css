@@ -1,6 +1,12 @@
 .navbar {
   background-color: #87cefa;
 }
+@media only screen and (max-width: 900px) {
+  .nav-text {
+    display: none;
+  }
+}
+
 body {
   font-family: "Abel", sans-serif;
   background-color: black;
@@ -31,6 +37,9 @@ h4 {
   border-top: 5px solid #87cefa;
   margin: 50px;
 }
+/* .img-fluid rounded-start education-img {
+ align-items: center;
+} */
 .rounded-end {
   padding: 50px;
 }
@@ -52,7 +61,8 @@ h4 {
   margin: 50px;
 }
 .education-img {
-  width: 50%;
+  height: 100%;
+  width: 400px;
   padding: 50px;
 }
 .heading-education {
@@ -87,4 +97,7 @@ h4 {
 .content-experience {
   color: white;
   font-size: 25px;
+}
+.certificate {
+  background-color: #87cefa;
 }
