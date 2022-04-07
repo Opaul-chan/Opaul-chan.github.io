@@ -6,7 +6,13 @@
     display: none;
   }
 }
-
+.btn {
+  background: #87cefa;
+  color: black;
+  width: 200px;
+  height: 60px;
+  font-size: 28px;
+}
 body {
   font-family: "Abel", sans-serif;
   background-color: black;
