@@ -12,6 +12,7 @@
   width: 200px;
   height: 60px;
   font-size: 28px;
+  margin-bottom: 30px;
 }
 body {
   font-family: "Abel", sans-serif;
@@ -46,6 +47,7 @@ h4 {
 /* .img-fluid rounded-start education-img {
  align-items: center;
 } */
+
 .rounded-end {
   padding: 50px;
 }
@@ -109,4 +111,19 @@ h4 {
 }
 .experience-part {
   margin: 0;
+}
+/* .row row-cols-1 row-cols-md-3 g-4 {
+  padding-left: 60px;
+} */
+
+.card {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+#carouselExampleCaptions {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
