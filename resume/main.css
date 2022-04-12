@@ -1,10 +1,36 @@
 .navbar {
   background-color: #87cefa;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1080px) {
   .nav-text {
     display: none;
   }
+  h3.name {
+    font-size: 32px;
+  }
+  h4.job-position {
+    font-size: 26px;
+  }
+  p.personal-statement {
+    font-size: 24px;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* .@media only screen and (max-width: 900px) {
+} */
+.profile-part {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.education-img {
+  width: 100%;
+}
+.education-part {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .btn {
   background: #87cefa;
@@ -16,7 +42,7 @@
 }
 body {
   font-family: "Abel", sans-serif;
-  background-color: black;
+  background-color: #fffbe7;
 }
 h1 {
   color: #87cefa;
@@ -26,7 +52,7 @@ h2 {
   text-align: left;
 }
 h3 {
-  color: white;
+  color: black;
   font-size: 50px;
 }
 .heading-section {
@@ -34,15 +60,16 @@ h3 {
   padding-left: 50px;
 }
 .job-position {
-  color: white;
+  color: black;
   font-size: 40px;
 }
 h4 {
-  color: white;
+  color: black;
 }
-.line {
-  border-top: 5px solid #87cefa;
+hr.line {
+  border-top: 5px solid #ff8aae;
   margin: 50px;
+  background-color: #ff8aae;
 }
 /* .img-fluid rounded-start education-img {
  align-items: center;
@@ -55,15 +82,15 @@ h4 {
   margin-top: 100px;
 }
 .personal-statement {
-  color: white;
-  font-size: 30px;
+  font-size: 24px;
   text-align: left;
 }
 .profile-bg {
-  background-color: black;
+  background-color: #fffbe7;
+  border: #fffbe7;
 }
 .profile-img {
-  padding: 50px;
+  padding-right: 30px;
 }
 .container-center {
   margin: 50px;
@@ -74,43 +101,45 @@ h4 {
   padding: 50px;
 }
 .heading-education {
-  font-size: 30px;
+  font-size: 22px;
 }
 .education-bg {
-  background-color: black;
-  color: white;
+  background-color: #fffbe7;
   border: 5px dotted #87cefa;
   max-width: 100%;
 }
 .period-education {
-  font-size: 25px;
+  font-size: 18px;
   color: gray;
 }
 .content-education {
-  font-size: 25px;
-  color: white;
+  font-size: 18px;
+  /* color: white; */
 }
-.pt-img {
-  height: 50%;
+.img-fluid pt-img {
+  padding: 50px;
 }
 .experience-card {
   max-width: 100%;
-  background-color: black;
+  background-color: #fffbe7;
+  border: 5px solid #87cefa;
   padding: 50px;
 }
 .heading-experience {
-  color: white;
-  font-size: 30px;
+  /* color: white; */
+  font-size: 22px;
 }
 .content-experience {
-  color: white;
-  font-size: 25px;
+  font-size: 18px;
 }
 .certificate {
   background-color: #87cefa;
 }
 .experience-part {
   margin: 0;
+}
+.period-education {
+  font-size: 18px;
 }
 /* .row row-cols-1 row-cols-md-3 g-4 {
   padding-left: 60px;
@@ -126,4 +155,20 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card-img-top {
+  width: 100%;
+  height: 205px;
+}
+.footer-web {
+  height: 30px;
+  margin-top: 100px;
+  background-color: #87cefa;
+}
+.footer-part {
+  background-color: #87cefa;
 }
