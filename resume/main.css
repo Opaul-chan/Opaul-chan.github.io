@@ -136,7 +136,8 @@ hr.line {
   background-color: #87cefa;
 }
 .experience-part {
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .period-education {
   font-size: 18px;
@@ -171,4 +172,12 @@ hr.line {
 }
 .footer-part {
   background-color: #87cefa;
+}
+.certificate-part {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.project-part {
+  max-width: 1200px;
+  margin: 0 auto;
 }
